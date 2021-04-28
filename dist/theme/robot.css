@@ -68,7 +68,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
    }
     @media (max-width: 840px) {
       .line.bottom {
-        height: 100px; } }
+        height: 71px; } }
     @media (max-width: 840px) {
       .line.bottom img {
         height: 25px;
@@ -370,7 +370,7 @@ body {
   .reveal .slide-number {
     font-size: 20px;
     right: 72px;
-    bottom: 65px; } }
+    bottom: 42px; } }
 
   /*********************************************
  * SLIDE 1
