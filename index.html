@@ -4,19 +4,30 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Soutenance Damien Bouvet</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/robot.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
+		<div class="line top"></div>
+		<div class="line bottom">
+			<img class="awensys" src="./images/awensysLogo.png" alt="Awensys">
+			<img class="quasar" src="./images/quasarLogo.png" alt="Quasar">
+			<img class="cna" src="./images/cropped-logo_CampusNum_txt-noir_web-1-2-1.png" alt="Campus Numerique">
+		</div>
+		<div class="line left"></div>
+		<div class="line right"></div>
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
+				<section>Slide 2</section>
+				<section>Slide 2</section>
+				<section>Slide 2</section>
 				<section>Slide 2</section>
 			</div>
 		</div>
@@ -31,6 +42,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				margin: 0.2,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
