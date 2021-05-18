@@ -157,11 +157,14 @@ html.reveal-full-page {
 	&.visible {
 		opacity: 0.5;
 		visibility: inherit;
+		font-weight: normal;
 	}
 
 	&.current-fragment {
 		opacity: 1;
 		visibility: inherit;
+		font-weight: 600;
+		font-size: 130%;
 	}
 }
 
